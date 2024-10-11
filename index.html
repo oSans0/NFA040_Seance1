@@ -1,10 +1,220 @@
+<!DOCTYPE html>
 <html>
-<head>
-        <meta charset="UTF-8"/>
-        <title>NFA040</title>
-</head>
-        
-<body>
-        <h1>Ceci est mon Site Internet NFA040 </h1>
-</body>
+	<head>
+		<style>
+		fieldset {
+				background-color: #eeeeee;
+				width: 20%
+			}
+			table {
+				border:1px solid black;
+			}
+			th, td {
+				border:2px solid black;
+			}			
+			#titre {
+				background-color: black;
+				color: white;
+			}
+			.part1 {
+				background-color: #C0C0C0;
+				color: green;
+			}
+			.part2{
+				background-color: #6E6C64;
+				color: white;
+				}
+			#Isep {
+				border-style: double;
+				border-top-color: purple;
+				border-width: 50px;
+				border-bottom-color: red;
+				border-left-color: blue;
+				border-right-color: #00FA9A;
+				border-radius: 10px;
+				margin: 25px;
+				padding: 50px;
+				}
+		</style>
+		<title> Mon site Web en interne </title>
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+	</head>
+	<body>
+		Ma première page avec du texte (sans style)
+		<br> <h1> Ceci est un grand titre </h1>
+		<h3> Ceci est un titre plus petit </h3>
+		<p> Ceci est un paragraphe </p>
+		<a href="https://www.isep.fr/"> Ceci est un lien vers ISEP </a>
+		<br> <a href="siteWev2.html"> Ceci est un lien vers la deuxième page HTML </a>
+		<br> <p> Voici le logo de l'ISEP : </p>
+		
+		<img src="https://www.isep.fr/wp-content/themes/isep/img/logo_isep.svg" alt="Image ISEP" width="400" height="150"> <br>
+		<p> Les parcours de formation à l'ISEP sont : </p>
+		<ul>
+		     <li> Les parcours du domaine informatique </li>
+		<ol>
+		     <li> Le parcours Ingénieurs logiciel </li>
+		     <li> Le parcours architectures des systèmes d'information </li>
+		     <li> Le parcours sécrité numérique est réseaux  </li>
+		</ol>
+		     <li> Les parcours du domaine électronique et Télécom </li>
+		<ol>
+		     <li> Le parcours systèmes embarqués </li>
+		     <li> Le parcours objets services connectés </li>
+		</ol>
+		     <li> Les autres parcours </li>
+		<ol>
+		     <li> Le parcours numérique et santé </li>
+		     <li> Le parcours intélligence des données </li>
+		</ul>
+		
+		<p> Les parcours de formation à l'ISEP sont : </p>
+		<ul>
+		     <li> Les parcours du domaine informatique </li>
+		<ol>
+		     <li> Le parcours Ingénieurs logiciel </li>
+		     <li> Le parcours architectures des systèmes d'information </li>
+		     <li> Le parcours sécrité numérique est réseaux  </li>
+		</ol>
+		     <li> Les parcours du domaine électronique et Télécom </li>
+		<ol start="4">
+		     <li> Le parcours systèmes embarqués </li>
+		     <li> Le parcours objets services connectés </li>
+		</ol>
+		     <li> Les autres parcours </li>
+		<ol start="6">
+		     <li> Le parcours numérique et santé </li>
+		     <li> Le parcours intélligence des données </li>
+		</ul>
+		
+		<p> Les parcours de formation à l'ISEP sont : </p>
+		<ul style="list-style-type:square">
+		     <li> Les parcours du domaine informatique </li>
+		<ol>
+		     <li> Le parcours Ingénieurs logiciel </li>
+		     <li> Le parcours architectures des systèmes d'information </li>
+		     <li> Le parcours sécrité numérique est réseaux  </li>
+		</ol>
+		     <li> Les parcours du domaine électronique et Télécom </li>
+		<ol>
+		     <li> Le parcours systèmes embarqués </li>
+		     <li> Le parcours objets services connectés </li>
+		</ol>
+		     <li> Les autres parcours </li>
+		<ol>
+		     <li> Le parcours numérique et santé </li>
+		     <li> Le parcours intélligence des données </li>
+		</ul>
+		
+		<p> Les parcours de formation à l'ISEP sont : </p>
+		<ul>
+		     <li> Les parcours du domaine informatique </li>
+		<ol style="list-style-type:lower-alpha">
+		     <li> Le parcours Ingénieurs logiciel </li>
+		     <li> Le parcours architectures des systèmes d'information </li>
+		     <li> Le parcours sécrité numérique est réseaux  </li>
+		</ol>
+		     <li> Les parcours du domaine électronique et Télécom </li>
+		<ol style="list-style-type:lower-alpha">
+		     <li> Le parcours systèmes embarqués </li>
+		     <li> Le parcours objets services connectés </li>
+		</ol>
+		     <li> Les autres parcours </li>
+		<ol style="list-style-type:lower-alpha">
+		     <li> Le parcours numérique et santé </li>
+		     <li> Le parcours intélligence des données </li>
+		</ul>
+		
+		<table style="width:25%">
+		<caption> Quelques professeurs de l'ISEP </caption>
+		<tr> 
+			<th id ="titre"> Prenom </th>
+			<th id ="titre"> Nom </th>
+			<th id ="titre"> Adresse mail </th>
+		</tr>
+		<tr>
+			<td class="part1"> Nour </td>
+			<td class="part1"> El Madhoun </td>
+			<td class="part1"> nour.el-madhoun@isep.fr </td>
+		</tr>
+		<tr>
+			<td class="part2"> Hervé </td>
+			<td class="part2"> Allanic </td>
+			<td class="part2"> herve.allanic@isep.fr </td>
+		</tr>
+		<tr>
+			<td class="part1"> Zakia </td>
+			<td class="part1"> Kazi </td>
+			<td class="part1"> zakia.kazi@isep.fr </td>
+		</tr>
+		</table>
+
+		<table style="width:25%">
+		<caption> Quelques professeurs de l'ISEP </caption>
+		<tr> 
+			<th id ="titre"> Prenom </th>
+			<th id ="titre"> Nom </th>
+			<th id ="titre"> Adresse mail </th>
+		</tr>
+		<tr>
+			<td class="part1"> Nour </td>
+			<td class="part1"> El Madhoun </td>
+			<td class="part1"> nour.el-madhoun@isep.fr </td>
+		</tr>
+		<tr>
+			<td class="part2"> Hervé </td>
+			<td class="part2"> Allanic </td>
+			<td class="part2"> herve.allanic@isep.fr </td>
+		</tr>
+		<tr>
+			<td class="part1"> Zakia </td>
+			<td class="part1"> Kazi </td>
+			<td class="part1"> zakia.kazi@isep.fr </td>
+		</tr>
+		</table>
+		
+		<form>
+		<fieldset>
+			<legend>Votre profil :</legend>
+			<pre> <label for="nom">Nom :</label> <input type="text"> </pre> 
+			<pre> <label for="nom">Prénom :</label> <input type="text"> </pre>
+			<pre> <label for="nom">Login :</label> <input type="text"> </pre>
+			<pre> <label for="nom">Mot de passe :</label> <input type="password"> </pre>
+		</fieldset>
+		</form>
+		
+		<form>
+		<fieldset>
+			<legend>Vos passe-temps :</legend>
+			<p>Pratiquez-vous un sport ?</p>
+			<label for="radio">Oui </label> <input type="radio" id="Oui" name="choice" value="OUI"> <br>
+			<label for="radio">Non </label> <input type="radio" id="Non" name="choice" value="NON"> <br>
+			<p>Si oui, lesquels parmi ceux-là ?</p>
+			<label for="radio">Football </label> <input type="radio" id="foot" name="choice" value="FOOT"> <br>
+			<label for="radio">Golf </label> <input type="radio" id="golf" name="choice" value="GOLF"> <br>
+			<label for="radio">Natation </label> <input type="radio" id="natation" name="choice" value="NATATION"> <br>
+			<label for="radio">Cyclisme </label> <input type="radio" id="cyclisme" name="choice" value="CYCLISME"> 
+			<p>Aimez-vous lire ?</p>
+			<label for="radio">Oui </label> <input type="radio" id="Oui" name="choice" value="OUI"> <br>
+			<label for="radio">Non </label> <input type="radio" id="Non" name="choice" value="NON"> 
+			<p>Si oui, quel livre êtes-vous en train de lire ?</p>
+			<textarea name="message" rows="10" cols="30">
+			informations
+			Supplémentaires
+			</textarea> <br>
+			 <input type="submit"> <br>
+			 <input type="reset">
+		</fieldset>
+		</form>
+		
+		<img src="marioluigi.jpg" alt="mario et luigi" usemap="#marioluigi">
+		<map name="marioluigi">
+			<area shape="rect" coords="30,19,98,144" alt="mario" href="mario.jpg">
+			<area shape="rect" coords="109,0,183,147" alt="luigi" href="luigi.jpg">
+		</map>
+		<p> voici le logo de l'Isep </p>
+		<img id="Isep" src="https://www.isep.fr/wp-content/themes/isep/img/logo_isep.svg" alt="Image ISEP" width="400" height="150"> <br>
+
+		
+	</body>
 </html>
